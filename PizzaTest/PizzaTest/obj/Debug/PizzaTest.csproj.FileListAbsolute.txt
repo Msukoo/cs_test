@@ -1,0 +1,10 @@
+D:\C#\PizzaTest\PizzaTest\bin\Debug\PizzaTest.exe.config
+D:\C#\PizzaTest\PizzaTest\bin\Debug\PizzaTest.exe
+D:\C#\PizzaTest\PizzaTest\bin\Debug\PizzaTest.pdb
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.csprojAssemblyReference.cache
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.Form1.resources
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.Properties.Resources.resources
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.csproj.GenerateResource.cache
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.csproj.CoreCompileInputs.cache
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.exe
+D:\C#\PizzaTest\PizzaTest\obj\Debug\PizzaTest.pdb

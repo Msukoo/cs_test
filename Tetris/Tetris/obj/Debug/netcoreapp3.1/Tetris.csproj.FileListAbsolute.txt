@@ -1,0 +1,13 @@
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.csprojAssemblyReference.cache
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.AssemblyInfoInputs.cache
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.AssemblyInfo.cs
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.csproj.CoreCompileInputs.cache
+D:\C#\Tetris\Tetris\bin\Debug\netcoreapp3.1\Tetris.exe
+D:\C#\Tetris\Tetris\bin\Debug\netcoreapp3.1\Tetris.deps.json
+D:\C#\Tetris\Tetris\bin\Debug\netcoreapp3.1\Tetris.runtimeconfig.json
+D:\C#\Tetris\Tetris\bin\Debug\netcoreapp3.1\Tetris.runtimeconfig.dev.json
+D:\C#\Tetris\Tetris\bin\Debug\netcoreapp3.1\Tetris.dll
+D:\C#\Tetris\Tetris\bin\Debug\netcoreapp3.1\Tetris.pdb
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.dll
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.pdb
+D:\C#\Tetris\Tetris\obj\Debug\netcoreapp3.1\Tetris.genruntimeconfig.cache
