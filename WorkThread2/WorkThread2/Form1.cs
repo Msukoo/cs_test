@@ -38,7 +38,7 @@ namespace WorkThread2
                 {
                     workView.Items.Add(string.Format("Thread#{0}: Begin", Thread.CurrentThread.ManagedThreadId));
 
-                    
+                    Thread.Sleep(3000);
 
                     workView.Items.Add(string.Format("Thread#{0}: End", Thread.CurrentThread.ManagedThreadId));
                 }));
