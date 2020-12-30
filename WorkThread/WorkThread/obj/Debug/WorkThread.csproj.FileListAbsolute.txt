@@ -1,0 +1,11 @@
+D:\C#\WorkThread\WorkThread\bin\Debug\WorkThread.exe.config
+D:\C#\WorkThread\WorkThread\bin\Debug\WorkThread.exe
+D:\C#\WorkThread\WorkThread\bin\Debug\WorkThread.pdb
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.csprojAssemblyReference.cache
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.Form1.resources
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.Properties.Resources.resources
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.csproj.GenerateResource.cache
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.csproj.CoreCompileInputs.cache
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.exe
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.pdb
+D:\C#\WorkThread\WorkThread\obj\Debug\WorkThread.Play.resources
