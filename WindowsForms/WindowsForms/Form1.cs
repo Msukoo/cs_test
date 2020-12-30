@@ -12,10 +12,10 @@ namespace WindowsForms
 {
     public partial class Form1 : Form
     {
-        int cnt = 0;
         public Form1()
         {
             InitializeComponent();
+        
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -25,19 +25,25 @@ namespace WindowsForms
 
                 ListData listData = ListData.Instance;
 
-                List<string> viewList = listData.list;
+                List<User> viewList = listData.list;
+                dataGridView1.DataSource = viewList;
 
-                listBox.Items.Add(viewList[cnt]);
-
-                cnt++;
+                for (int i=0; i<viewList.Capacity; i++)
+                {
+                    listBox.Items.Add(viewList[i].Name);
+                }
+                                              
             }
             catch (Exception x)
             {
+                button1.Enabled = false;
+                textBox1.Text = "마지막입니다.";
                 Console.WriteLine(x.Message);
-                listBox.Items.Add("마지막 목록이 끝났습니다. ");
-
-                return;
             }
         }
+
+        
+
+        
     }
 }

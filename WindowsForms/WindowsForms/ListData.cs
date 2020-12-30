@@ -8,16 +8,19 @@ namespace WindowsForms
 {
     class ListData
     {
-        public List<string> list;
+        public List<User> list;
 
         private void SetList()
         {
             if (list == null)
             {
-                list = new List<string>();
-                list.Add("blue");
-                list.Add("Yellow");
-                list.Add("red");
+                list = new List<User>();
+
+                list.Add(NewUser("minsu", 29, "F", "송파구"));
+                list.Add(NewUser("dasom", 23, "F", "광진구"));
+                list.Add(NewUser("bonmin", 22, "M", "송파구"));
+                list.Add(NewUser("Yoogin", 28, "F", "김포시"));
+                list.Add(NewUser("soyoung", 31, "F", "수정구"));
             }
         }
 
@@ -36,6 +39,16 @@ namespace WindowsForms
                 if (_instance == null) _instance = new ListData();
                 return _instance;
             }
+        }
+
+        public User NewUser(string name, int age, string gender, string address)
+        {
+            User u = new User();
+            u.Name = name;
+            u.Age = age;
+            u.Gender = gender;
+            u.Address = address;
+            return u;
         }
     }
 }
