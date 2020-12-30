@@ -1,0 +1,10 @@
+D:\C#\WorkThread2\WorkThread2\bin\Debug\WorkThread2.exe.config
+D:\C#\WorkThread2\WorkThread2\bin\Debug\WorkThread2.exe
+D:\C#\WorkThread2\WorkThread2\bin\Debug\WorkThread2.pdb
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.csprojAssemblyReference.cache
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.Form1.resources
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.Properties.Resources.resources
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.csproj.GenerateResource.cache
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.csproj.CoreCompileInputs.cache
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.exe
+D:\C#\WorkThread2\WorkThread2\obj\Debug\WorkThread2.pdb
