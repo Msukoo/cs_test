@@ -1,0 +1,10 @@
+D:\C#\RamdaTest\RamdaTest\bin\Debug\RamdaTest.exe.config
+D:\C#\RamdaTest\RamdaTest\bin\Debug\RamdaTest.exe
+D:\C#\RamdaTest\RamdaTest\bin\Debug\RamdaTest.pdb
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.csprojAssemblyReference.cache
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.Form1.resources
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.Properties.Resources.resources
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.csproj.GenerateResource.cache
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.csproj.CoreCompileInputs.cache
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.exe
+D:\C#\RamdaTest\RamdaTest\obj\Debug\RamdaTest.pdb

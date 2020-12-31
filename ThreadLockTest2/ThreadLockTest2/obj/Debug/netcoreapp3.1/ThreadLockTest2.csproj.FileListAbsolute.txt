@@ -1,0 +1,13 @@
+D:\C#\ThreadLockTest2\ThreadLockTest2\bin\Debug\netcoreapp3.1\ThreadLockTest2.exe
+D:\C#\ThreadLockTest2\ThreadLockTest2\bin\Debug\netcoreapp3.1\ThreadLockTest2.deps.json
+D:\C#\ThreadLockTest2\ThreadLockTest2\bin\Debug\netcoreapp3.1\ThreadLockTest2.runtimeconfig.json
+D:\C#\ThreadLockTest2\ThreadLockTest2\bin\Debug\netcoreapp3.1\ThreadLockTest2.runtimeconfig.dev.json
+D:\C#\ThreadLockTest2\ThreadLockTest2\bin\Debug\netcoreapp3.1\ThreadLockTest2.dll
+D:\C#\ThreadLockTest2\ThreadLockTest2\bin\Debug\netcoreapp3.1\ThreadLockTest2.pdb
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.csprojAssemblyReference.cache
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.AssemblyInfoInputs.cache
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.AssemblyInfo.cs
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.csproj.CoreCompileInputs.cache
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.dll
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.pdb
+D:\C#\ThreadLockTest2\ThreadLockTest2\obj\Debug\netcoreapp3.1\ThreadLockTest2.genruntimeconfig.cache

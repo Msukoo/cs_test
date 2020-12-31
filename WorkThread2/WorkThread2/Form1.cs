@@ -12,7 +12,8 @@ using System.Windows.Forms;
 namespace WorkThread2
 {
     public partial class Form1 : Form
-    {        
+    {
+        Thread _thread = null;
         public Form1()
         {
             InitializeComponent();
@@ -25,26 +26,16 @@ namespace WorkThread2
 
         public void StartWork()
         {
-            Thread _thread1 = new Thread(new ThreadStart(Work));
-            _thread1.Start();
-            Thread _thread2 = new Thread(new ThreadStart(Work));
-            _thread2.Start();
-        }
-        public void Work()
-        {
-            if (this.InvokeRequired)
+            Work work = new Work();
+            for(int i=0; i<3; i++)
             {
-                this.Invoke(new Action(delegate ()
-                {
-                    workView.Items.Add(string.Format("Thread#{0}: Begin", Thread.CurrentThread.ManagedThreadId));
+                //work.fThreadStart();
+                _thread = new Thread(new ThreadStart(work.fWork));
+                _thread.Start();
 
-                    Thread.Sleep(3000);
-
-                    workView.Items.Add(string.Format("Thread#{0}: End", Thread.CurrentThread.ManagedThreadId));
-                }));
-             }
+            }
             
-      
         }
+        
     }
 }

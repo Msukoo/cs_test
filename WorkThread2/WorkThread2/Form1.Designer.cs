@@ -30,12 +30,11 @@ namespace WorkThread2
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.workView = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(116, 12);
+            this.button1.Location = new System.Drawing.Point(123, 64);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 35);
             this.button1.TabIndex = 0;
@@ -43,21 +42,11 @@ namespace WorkThread2
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // workView
-            // 
-            this.workView.FormattingEnabled = true;
-            this.workView.ItemHeight = 15;
-            this.workView.Location = new System.Drawing.Point(12, 66);
-            this.workView.Name = "workView";
-            this.workView.Size = new System.Drawing.Size(352, 94);
-            this.workView.TabIndex = 1;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 192);
-            this.Controls.Add(this.workView);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -68,7 +57,6 @@ namespace WorkThread2
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox workView;
     }
 }
 
