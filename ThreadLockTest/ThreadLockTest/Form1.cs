@@ -15,6 +15,7 @@ namespace ThreadLockTest
     {
         private object lockObject = new object();
         int iNumber = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -34,22 +35,23 @@ namespace ThreadLockTest
 
         public void GiveNumber()
         {
-            //lock (lockObject)
-            //{
+            lock (lockObject)
+            {
                 if (this.InvokeRequired)
                 {
                     Invoke((MethodInvoker)delegate ()
                     {
+                        
                         iNumber++;
-                        Thread.Sleep(3000);
+                        Thread.Sleep(1000);
                         lNumberView.Items.Add(string.Format("{0}번을 부여합니다.", iNumber));
+
                         
-                        //lNumberView.Items.Add(string.Format("{0}번 입장합니다..", iNumber));
-                        
-                        //lNumberView.Items.Add(string.Format("{0}번 안녕히가세요..", iNumber));
+                        Thread.Sleep(1000);
+                        lNumberView.Items.Add(string.Format("{0}번 안녕히가세요..", iNumber));
                     });
                 }
-            //}
+            }
             
 
         }
