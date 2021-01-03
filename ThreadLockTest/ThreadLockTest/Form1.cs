@@ -34,22 +34,22 @@ namespace ThreadLockTest
 
         public void GiveNumber()
         {
-            lock (lockObject)
-            {
+            //lock (lockObject)
+            //{
                 if (this.InvokeRequired)
                 {
                     Invoke((MethodInvoker)delegate ()
                     {
                         iNumber++;
-
+                        Thread.Sleep(3000);
                         lNumberView.Items.Add(string.Format("{0}번을 부여합니다.", iNumber));
-                        Thread.Sleep(300);
-                        lNumberView.Items.Add(string.Format("{0}번 입장합니다..", iNumber));
-                        Thread.Sleep(300);
-                        lNumberView.Items.Add(string.Format("{0}번 안녕히가세요..", iNumber));
+                        
+                        //lNumberView.Items.Add(string.Format("{0}번 입장합니다..", iNumber));
+                        
+                        //lNumberView.Items.Add(string.Format("{0}번 안녕히가세요..", iNumber));
                     });
                 }
-            }
+            //}
             
 
         }

@@ -50,7 +50,7 @@ namespace WorkThread
                         iVar = rd.Next(1, 11);
                         if (progressBar1.Value + iVar > 100)
                         {
-                            progressBar1.Value = 100;
+                            progressBar1.Value = 100; //while문 종료
                         }
                         else
                         {

@@ -28,13 +28,13 @@ namespace WorkThread
         {
             InitializeComponent();
 
-            _locationX = this.Location.X;
+            _locationX = this.Location.X; //form1의 위치값
             _locationY = this.Location.Y;
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            _locationX = this.Location.X + this.Size.Width ;
+            _locationX = this.Location.X + this.Size.Width ; //Play UI위치값지정하기위한 기준
             _locationY = this.Location.Y;
 
             for(int i=0; i<numberPlayerCount.Value; i++)
